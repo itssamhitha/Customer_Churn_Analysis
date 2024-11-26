@@ -5,9 +5,11 @@ Title:
 Report- Data Preprocessing,EDA, Model Building and Evaluation
 
 Prepared by:
+
 Samhitha Angara
 
 Introduction 
+
 This report outlines the process of selecting, building, and evaluating a machine learning model to predict customer churn. The goal is to identify customers at risk of leaving and provide actionable insights to help mitigate this risk.
 
 The following features from the dataset were used:
@@ -47,6 +49,7 @@ The following transformations have been made to the data:
 -	The Count_of_Products_Purchased column was calculated to represent the total number of products purchased by each customer, regardless of product category. This feature captured the overall volume of purchases made by each customer by aggregating all transaction records into a single total count.
 
 Univariate Analysis of Total_Amount_Spent 
+
 The data demonstrated mild positive skewness suggesting that very few customers had a very high total expenditure. Since, the tail is shorter and the data showed no outliers this data was used as such to carry out the analyses. 
    
 Bivariate Analysis of Gender, Marital Status, Income Level, Interaction_Type and Product Category by ChurnStatus
